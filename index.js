@@ -42,6 +42,7 @@ const customers = [
     ];
 
 
+(function renderCustomerList() {
     let output = `<ul class="customers-list">`;
 
     customers.map((customer) => {
@@ -58,3 +59,4 @@ const customers = [
     output += `</ul>`;
 
     document.getElementsByClassName("customers-container")[0].innerHTML = output;
+})();
