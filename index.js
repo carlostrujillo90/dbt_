@@ -49,7 +49,7 @@ const customers = [
         `<li class="customer">
             <img src=${customer.img} alt=${customer.name} class="customer-logo">
             <h4 class="customer-name">${customer.name}</h4>
-            <a href=${customer.url} target=_blank class="customer-button">
+            <a href=${customer.url} target="_blank" class="customer-button">
                 Visit ${customer.name}
             </a>
         </li>`
