@@ -39,13 +39,13 @@ const customers = [
         "img": "https://www.getdbt.com/ui/img/customers/kickstarter-logo.svg",
         "url": "https://www.kickstarter.com/"
     }
-    ];
+];
 
 
 (function renderCustomerList() {
     let output = `<ul class="customers-list">`;
 
-    customers.map((customer) => {
+    customers.forEach((customer) => {
         output +=
         `<li class="customer">
             <img src=${customer.img} alt=${customer.name} class="customer-logo">
