@@ -48,7 +48,7 @@ const customers = [
         output +=
         `<li class="customer">
             <img src=${customer.img} alt=${customer.name} class="customer-logo">
-            <h4 class="customer-name" class="customer-name">${customer.name}</h4>
+            <h4 class="customer-name">${customer.name}</h4>
             <a href=${customer.url} target=_blank class="customer-button">
                 Visit ${customer.name}
             </a>
